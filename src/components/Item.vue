@@ -22,9 +22,9 @@
 
 <script>
 export default {
-    name: 'Item',
-    props: {
-        items: object
-    }
-}
+  name: 'Item',
+  props: {
+    items: object,
+  },
+};
 </script>

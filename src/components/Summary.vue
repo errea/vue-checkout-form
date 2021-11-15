@@ -8,21 +8,21 @@
 </template>
 
 <script>
-import Item from './Item'
+import Item from './Item';
 
 export default {
-    name: 'Summary',
-    props: {
-        items: object
-    },
-    component:{
-        Items
-    },
-    data () {
-        return {
+  name: 'Summary',
+  props: {
+    items: object,
+  },
+  component: {
+    Items,
+  },
+  data() {
+    return {
 
-        };
-    }
+    };
+  },
 };
 
 </script>

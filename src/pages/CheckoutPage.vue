@@ -7,39 +7,39 @@
 </template>
 
 <script>
-import Payment from "../components/Payment";
-import Summary from "../components/Summary";
-import Alert from "../components/Alert";
+import Payment from '../components/Payment';
+import Summary from '../components/Summary';
+import Alert from '../components/Alert';
 
 export default {
-  name: "CheckoutPage",
+  name: 'CheckoutPage',
   components: {
     Payment,
     Summary,
-    Alert
+    Alert,
   },
   data() {
     return {
       items: [
         {
-          title: "Title 1",
-          description: "lorem impsu liwe",
-          price: 550
+          title: 'Title 1',
+          description: 'lorem impsu liwe',
+          price: 550,
         },
         {
-          title: "Title 2",
-          description: "lorem impsu liwe",
-          price: 250
+          title: 'Title 2',
+          description: 'lorem impsu liwe',
+          price: 250,
         },
         {
-          title: "Title 3",
-          description: "lorem impsu liwe",
-          price: 150
-        }
+          title: 'Title 3',
+          description: 'lorem impsu liwe',
+          price: 150,
+        },
       ],
       alertVisible: false,
       total: 0,
-      isCard: false
+      isCard: false,
     };
   },
   mounted() {
@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     getTotal(items) {
-      items.forEach(item => {
+      items.forEach((item) => {
         this.total += item.price;
       });
     },
@@ -59,7 +59,7 @@ export default {
     },
     handleCard() {
       this.isCard = true;
-    }
-  }
+    },
+  },
 };
 </script>
