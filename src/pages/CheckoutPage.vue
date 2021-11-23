@@ -24,7 +24,7 @@ export default {
         {
           title: 'Title 1',
           description: 'lorem impsu liwe',
-          price: 550,
+          price: 5500,
         },
         {
           title: 'Title 2',
