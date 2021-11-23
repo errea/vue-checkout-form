@@ -13,7 +13,7 @@
    </div>
    <div class="mb-6 flex flex-wrap -mx-3w-full">
     <div class="w-2/3 px-3">
-     <label class="block mb-3 text-gray-600" for="">Expiraion date</label>
+     <label class="block mb-3 text-gray-600" for="">Expiraion dates</label>
      <div class="flex">
       <select class="border border-gray-500 rounded-md inline-block py-2 px-3 w-full text-gray-600 tracking-widest mr-6">
        <option>Month</option>
@@ -33,7 +33,7 @@
    </div>
    <div>
     <button @click="finishPayment" class="w-full text-ceenter px-4 py-3 bg-blue-500 rounded-md shadow-md text-white font-semibold">
-     Confirm payment
+     Confirm of payment
     </button>
    </div>
   </div>
