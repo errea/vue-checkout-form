@@ -1,5 +1,7 @@
 # checkout-form
 
+## ScreenShoot
+![screenshot](./src/assets/img/screenshot.png)
 ## Project setup
 ```
 yarn install
