@@ -29,7 +29,7 @@ export default {
         {
           title: 'Title 2',
           description: 'lorem impsu liwe',
-          price: 250,
+          price: 2500,
         },
         {
           title: 'Title 3',
